@@ -9,7 +9,7 @@ agent any
         stage('Build Code') {
             steps {
                 sh "chmod u+x HelloWorld.py"
-                sh "./HelloWorld.py"
+                sh "python3 HelloWorld.py"
             }
         }
     }
