@@ -10,14 +10,6 @@ agent any
             steps {
                 sh "chmod u+x HelloWorld.py"
                 sh "./HelloWorld.py"
-                sh "chmod u+x Prog11.py"
-                sh "./Prog11.py"
-            }
-        }
-     stage('Test Code') {
-            steps {
-                sh "chmod u+x Test1.py"
-                sh "./Test1.py"
             }
         }
     }
