@@ -8,8 +8,14 @@ agent any
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x HelloWorld.py"
-                sh "python3 HelloWorld.py"
+                sh "chmod u+x Prog11.py"
+                sh "python3 Prog11.py"
+            }
+        }
+     stage('Test Code') {
+            steps {
+                sh "chmod u+x Test1.py"
+                sh "python3 Test1.py"
             }
         }
     }
