@@ -10,9 +10,9 @@ class TestSum(unittest.TestCase):
         """
         Test case to find minimum in a list
         """
-        data = [23, 32, 5, 10, 15]
+        data = [-1, -2, -10, 100]
         result = minList(data)
-        self.assertEqual(result, 5)
+        self.assertEqual(result, -10)
 
 
 if __name__ == '__main__':

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Source code for summation of two numbers
+# Source code for finding minimum in a list
 
-def summation(data):
-    return sum(data)
+def minList(data):
+    return min(data)

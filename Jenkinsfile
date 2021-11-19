@@ -12,11 +12,19 @@ agent any
                 sh "python3 Prog11.py"
             }
         }
-     stage('Test Code') {
+     stage('Test 1') {
             steps {
                 sh "chmod u+x Test1.py"
                 sh "python3 Test1.py"
             }
         }
+        
+     stage('Test 2') {
+            steps {
+                sh "chmod u+x Test2.py"
+                sh "python3 Test2.py"
+            }
+        }
+
     }
 }
